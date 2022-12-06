@@ -5,7 +5,7 @@ Parameters:
   Key:
     Description: The EC2 Key Pair to allow SSH access to the instance
     Type: 'AWS::EC2::KeyPair::KeyName'
-    default: sainew
+    Default: sainew
 
   pVPC:
     Type: String
