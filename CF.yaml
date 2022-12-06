@@ -101,7 +101,7 @@ Resources:
     Properties:
       KeyName: !Ref Key
       DisableApiTermination: false
-      ImageId: ami-0b0dcb5067f052a63
+      ImageId: ami-0af2f764c580cc1f9
       InstanceType: 't3.micro'
       SubnetId: !Ref PublicSN
       Monitoring: false
